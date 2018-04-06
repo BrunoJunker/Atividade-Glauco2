@@ -1,0 +1,20 @@
+<!doctype html>
+<html> 
+    <head>
+       <title> exercicio 14</title>
+    </head>
+   <body>
+   <h1 id="texto">exercicio 14</h1>
+        <script>
+		var salario = prompt("digite seus salario");
+		var montante = prompt("digite o montante de venadas");
+		var nome     = "Glauco";
+		var comissao;
+		comissao = montante * 0.05;
+		var total;
+		total = salario + comissao;
+		alert("seu salario sera de: "+total);
+		</script>
+		
+   </body>
+</html>
