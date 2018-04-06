@@ -1,0 +1,22 @@
+<!doctype html>
+<html> 
+    <head>
+       <title> exercicio 15</title>
+    </head>
+   <body>
+   <h1 id="texto">exercicio 15</h1>
+        <script>
+		var horas_seg;
+		horas_seg = 3600;
+		var tempo = prompt("entre com o numero de segundos: ");
+		var horas;
+		horas = (tempo / horas_seg);
+		var minutos;
+		minutos = (tempo - (horas_seg*horas)) / 60;
+		var segundos;
+		segundos = (tempo - (horas_seg * horas) - (minutos * 60));
+		alert (" a conversao foi: " +horas+ " horas " +minutos+ " minutos "+segundos+ " segundos");
+		</script>
+		
+   </body>
+</html>
