@@ -1,0 +1,20 @@
+<!doctype html>
+<html> 
+    <head>
+       <title> exercicio 11</title>
+    </head>
+   <body>
+   <h1>Area de um retangulo</h1>
+		<script>
+		    var base = Number(prompt("digite o numero da base"));
+			var altura = Number(prompt("digite a altura"));
+			var area;
+			area = base * altura;
+			alert("A area do retangulo: "+area);
+			var perimetro;
+			perimetro = (2 * base + 2 * altura);
+			alert(" o  valor do perimetro: "+perimetro);
+		</script>
+		
+   </body>
+</html>
